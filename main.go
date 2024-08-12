@@ -17,11 +17,7 @@ func main() {
 	}
 
 	portfolio := agent.NewPortfolio(
-		agent.WeightedHeuristic{
-			Name:			 "health",
-			Heuristic: HeuristicHealth,
-			Weight:    1.0,
-		},
+		agent.WeightedHeuristic{ Weight: 1.0, Name: "team-health", Heuristic: HeuristicHealth },
 	)
 
 	snakeAgent := agent.NewSnakeAgent(portfolio, metadata)
