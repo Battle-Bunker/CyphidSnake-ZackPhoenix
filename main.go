@@ -10,10 +10,10 @@ func main() {
 
 	metadata := client.SnakeMetadataResponse{
 		APIVersion: "1",
-		Author:     "zuthan",
-		Color:      "#FF7F7F",
-		Head:       "evil",
-		Tail:       "nr-booster",
+		Author:     "",
+		Color:      "#888888",
+		Head:       "default",
+		Tail:       "default",
 	}
 
 	portfolio := agent.NewPortfolio(

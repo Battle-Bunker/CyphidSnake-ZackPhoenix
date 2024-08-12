@@ -1,12 +1,10 @@
-# Battlesnake Go Starter Project
+# Cyphid Snake Starter Project
 
-An official Battlesnake template written in Go. Get started at [play.battlesnake.com](https://play.battlesnake.com).
-
-![Battlesnake Logo](https://media.battlesnake.com/social/StarterSnakeGitHubRepos_Go.png)
+A Battlesnake client template written in Go using the [Cyphid Snake](https://github.com/Battle-Bunker/cyphid-snake) Battlesnake library from Cyphid Academy's Battle Bunker program. Get started with Battlesnake at [play.battlesnake.com](https://play.battlesnake.com).
 
 This project is a great starting point for anyone wanting to program their first Battlesnake in Go. It can be run locally or easily deployed to a cloud provider of your choosing. See the [Battlesnake API Docs](https://docs.battlesnake.com/api) for more detail. 
 
-[![Run on Replit](https://repl.it/badge/github/BattlesnakeOfficial/starter-snake-go)](https://replit.com/@Battlesnake/starter-snake-go)
+[Run on Replit](https://replit.com/@Cyphid/CyphidSnake-Starter)
 
 ## Technologies Used
 
@@ -41,7 +39,7 @@ Install the [Battlesnake CLI](https://github.com/BattlesnakeOfficial/rules/tree/
 Command to run a local game
 
 ```sh
-battlesnake play -W 11 -H 11 --name 'Go Starter Project' --url http://localhost:8000 -g solo --browser
+battlesnake play -W 11 -H 11 --name 'Cyphid Snake Starter Project' --url http://localhost:8000 -g solo --browser
 ```
 
 ## Next Steps
