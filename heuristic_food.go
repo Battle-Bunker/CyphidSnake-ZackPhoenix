@@ -33,12 +33,7 @@ type SnakeSnapshot interface {
 }
 */
 
-// heuristicHealth calculates the sum of health for all snakes in your team,
-// including the player's snake.
-func HeuristicHealth(snapshot agent.GameSnapshot) int {
-	totalHealth := 0
-	for _, snake := range snapshot.YourTeam() {
-		totalHealth += snake.Health()
-	}
-	return totalHealth
+// TODO implement a heuristic that returns higher values when closer to food
+func HeuristicFood(snapshot agent.GameSnapshot) int {
+	return 0
 }
