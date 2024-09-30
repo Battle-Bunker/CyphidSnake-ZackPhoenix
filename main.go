@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/Battle-Bunker/cyphid-snake/agent"
-	"github.com/Battle-Bunker/cyphid-snake/server"
+	"github.com/ZackBudai/cyphid-snake/agent"
+	"github.com/ZackBudai/cyphid-snake/server"
 	"github.com/BattlesnakeOfficial/rules/client"
 )
 
