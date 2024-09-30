@@ -1,4 +1,4 @@
-module github.com/ZackBudai/CyphidSnake-Starter
+module github.com/Battle-Bunker/CyphidSnake-Starter
 
 go 1.21.10
 
