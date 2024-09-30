@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/ZackBudai/cyphid-snake/agent"
+	"github.com/Battle-Bunker/cyphid-snake/agent"
 )
 
 // heuristicHealth calculates the sum of health for all snakes in your team,
