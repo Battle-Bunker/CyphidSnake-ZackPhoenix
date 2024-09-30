@@ -1,9 +1,9 @@
-module github.com/Battle-Bunker/CyphidSnake-Starter
+module github.com/ZackBudai/CyphidSnake-Starter
 
 go 1.21.10
 
 require (
-	github.com/Battle-Bunker/cyphid-snake v1.0.10
+	github.com/ZackBudai/cyphid-snake v1.0.10
 	github.com/BattlesnakeOfficial/rules v1.2.3
 )
 
